@@ -55,11 +55,12 @@ There is a strong need for an **automated, intelligent, and secure system** that
   <img src="https://github.com/Himanshu5619/Cloud-Cost-Optimizer/blob/main/Architecture/Optimizing%20the%20cost%20of%20serverless%20wev%20application.png" alt="Streamlit App Screenshot">
 </p>
 
-
+<p align="center">Monitoring an App ex from the AWS Startup Kit</p>
 <p align="center">
   <img src="https://github.com/Himanshu5619/Cloud-Cost-Optimizer/blob/main/Architecture/Monitoring%20an%20App%20ex%20from%20the%20AWS%20Startup%20Kit.png" alt="Streamlit App Screenshot">
 </p>
 
+<p align="center">Hibernating EC2 Instances in Response to a CloudWatch Alarm</p>
 <p align="center">
   <img src="https://github.com/Himanshu5619/Cloud-Cost-Optimizer/blob/main/Architecture/Hibernating%20EC2%20Instances%20in%20Response%20to%20a%20CloudWatch%20Alarm.png" alt="Streamlit App Screenshot">
 </p>
