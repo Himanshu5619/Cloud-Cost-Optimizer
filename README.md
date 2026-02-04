@@ -60,7 +60,7 @@ There is a strong need for an **automated, intelligent, and secure system** that
 </p>
 
 <p align="center">
-  <img src="https://github.com/Himanshu5619/Cloud-Cost-Optimizer/blob/main/Architecture/Backend%20Frontend%20AWS.png" alt="Streamlit App Screenshot">
+  <img src="https://github.com/Himanshu5619/Cloud-Cost-Optimizer/blob/main/Architecture/Hibernating%20EC2%20Instances%20in%20Response%20to%20a%20CloudWatch%20Alarm.png" alt="Streamlit App Screenshot">
 </p>
 
 **Core AWS Services Used:**
