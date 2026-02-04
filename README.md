@@ -52,7 +52,7 @@ There is a strong need for an **automated, intelligent, and secure system** that
 ## 🏗️ System Architecture Overview
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/TarakKatoch/My-Docker-Dockyard/832b5736931414654f7f86f829d835fd54015c7f/Running%20a%20Streamlit%20App%20in%20Docker%20on%20AWS%20EC2/assets/Screenshot%202025-02-20%20031258.png" alt="Streamlit App Screenshot">
+  <img src="https://github.com/Himanshu5619/Cloud-Cost-Optimizer/blob/main/Architecture/Optimizing%20the%20cost%20of%20serverless%20wev%20application.png" alt="Streamlit App Screenshot">
 </p>
 
 **Core AWS Services Used:**
