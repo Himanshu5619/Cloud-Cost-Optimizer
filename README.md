@@ -50,10 +50,11 @@ There is a strong need for an **automated, intelligent, and secure system** that
 ---
 
 ## 🏗️ System Architecture Overview
-
+<p align="center">Optimizing the cost of serverless wev application</p>
 <p align="center">
   <img src="https://github.com/Himanshu5619/Cloud-Cost-Optimizer/blob/main/Architecture/Optimizing%20the%20cost%20of%20serverless%20wev%20application.png" alt="Streamlit App Screenshot">
 </p>
+
 
 <p align="center">
   <img src="https://github.com/Himanshu5619/Cloud-Cost-Optimizer/blob/main/Architecture/Monitoring%20an%20App%20ex%20from%20the%20AWS%20Startup%20Kit.png" alt="Streamlit App Screenshot">
