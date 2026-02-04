@@ -6,3 +6,85 @@ managing underutilized compute resources. Using real-time monitoring and serverl
 system performs automated start and stop operations while maintaining operational efficiency and cost
 effectiveness.. The purpose of this project is to develop an autonomous, serverless system that aligns
 resource availability with actual demand, ensuring a true "pay-only-for-what-you-use" model.
+
+## 🚀 Key Highlights
+
+- ⚡ Fully Serverless Architecture  
+- 📉 Automated EC2 Cost Optimization  
+- 📊 Custom Cloud Monitoring Dashboard  
+- 🔐 IAM-secured & Non-Intrusive  
+- 🏷️ Tag-based Governance (`AutoManage: true`)  
+- 🧾 Audit Logs with DynamoDB  
+
+---
+
+## 🧠 Problem Statement
+
+Cloud environments often suffer from **idle yet running resources**, leading to **unnecessary operational expenditure (OpEx)**.
+
+Manual monitoring is:
+- Time-consuming  
+- Error-prone  
+- Not scalable  
+
+There is a strong need for an **automated, intelligent, and secure system** that dynamically aligns resource usage with actual demand.
+
+---
+
+## 🎯 Project Objective
+
+- Automatically detect **idle EC2 instances**
+- Stop instances when utilization is low
+- Restart instances when demand increases
+- Provide a **centralized monitoring dashboard**
+- Reduce cloud cost **without impacting critical workloads**
+
+---
+
+## 👥 Target Beneficiaries
+
+- **Cloud Administrators** – Reduce manual operational overhead  
+- **FinOps Teams** – Achieve measurable cloud cost savings  
+- **Startups & SMEs** – Optimize limited cloud budgets  
+
+---
+
+## 🏗️ System Architecture Overview
+
+**Core AWS Services Used:**
+- AWS EventBridge
+- AWS Lambda (Node.js 18.x)
+- AWS CloudWatch
+- AWS EC2
+- Amazon DynamoDB
+- Amazon S3
+- Amazon API Gateway
+
+**Flow:**
+1. EventBridge triggers Lambda every 5 minutes  
+2. Lambda fetches CPU metrics from CloudWatch  
+3. Decision logic evaluates thresholds  
+4. EC2 instances are started or stopped  
+5. Actions are logged in DynamoDB  
+6. Dashboard fetches data via API Gateway  
+
+---
+
+## ⚙️ Optimization Algorithm (Threshold-Based)
+
+### 🔄 Workflow
+
+**Monitoring Phase**
+- EventBridge triggers Lambda every **5 minutes**
+
+**Analysis Phase**
+- Average CPU utilization of last **15 minutes**
+
+**Decision Phase**
+- CPU < **10%** → Stop running instance  
+- CPU > **60%** → Start stopped instance  
+
+**Governance**
+- Only instances tagged:
+  ```text
+  AutoManage: true
