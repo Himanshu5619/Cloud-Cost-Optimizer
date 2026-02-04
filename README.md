@@ -55,6 +55,14 @@ There is a strong need for an **automated, intelligent, and secure system** that
   <img src="https://github.com/Himanshu5619/Cloud-Cost-Optimizer/blob/main/Architecture/Optimizing%20the%20cost%20of%20serverless%20wev%20application.png" alt="Streamlit App Screenshot">
 </p>
 
+<p align="center">
+  <img src="https://github.com/Himanshu5619/Cloud-Cost-Optimizer/blob/main/Architecture/Monitoring%20an%20App%20ex%20from%20the%20AWS%20Startup%20Kit.png" alt="Streamlit App Screenshot">
+</p>
+
+<p align="center">
+  <img src="https://github.com/Himanshu5619/Cloud-Cost-Optimizer/blob/main/Architecture/Backend%20Frontend%20AWS.png" alt="Streamlit App Screenshot">
+</p>
+
 **Core AWS Services Used:**
 - AWS EventBridge
 - AWS Lambda (Node.js 18.x)
@@ -65,6 +73,9 @@ There is a strong need for an **automated, intelligent, and secure system** that
 - Amazon API Gateway
 
 **Flow:**
+<p align="center">
+  <img src="https://github.com/Himanshu5619/Cloud-Cost-Optimizer/blob/main/Architecture/Backend%20Frontend%20AWS.png" alt="Streamlit App Screenshot">
+</p>
 1. EventBridge triggers Lambda every 5 minutes  
 2. Lambda fetches CPU metrics from CloudWatch  
 3. Decision logic evaluates thresholds  
