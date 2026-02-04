@@ -88,3 +88,42 @@ There is a strong need for an **automated, intelligent, and secure system** that
 - Only instances tagged:
   ```text
   AutoManage: true
+
+  ## 🛠️ Tech Stack
+
+| Layer | Technology |
+|-----|-----------|
+| Cloud Provider | AWS |
+| Compute | EC2 |
+| Serverless | AWS Lambda |
+| Scheduling | EventBridge |
+| Monitoring | CloudWatch |
+| Database | DynamoDB |
+| API | API Gateway |
+| Frontend | HTML, CSS, JavaScript |
+| Visualization | Chart.js |
+| Runtime | Node.js 18.x |
+
+---
+
+## 🧩 Prerequisites
+
+Before deploying the project, ensure you have:
+
+- AWS Account (Free Tier preferred)
+- IAM user with programmatic access
+- AWS CLI installed & configured
+- Node.js 18.x
+- Basic knowledge of AWS EC2 & IAM
+- Git & GitHub
+
+---
+
+## 🚀 Deployment Guide (Step-by-Step)
+
+### 1️⃣ Create EC2 Instances
+- Launch EC2 instances
+- Add tag:
+  ```text
+  Key: AutoManage
+  Value: true
